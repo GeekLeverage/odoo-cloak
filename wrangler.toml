@@ -1,4 +1,4 @@
-name = "cloak-worker"
+name = "odoo-cloak"
 type = "javascript"
 compatibility_date = "2025-03-28"
 
