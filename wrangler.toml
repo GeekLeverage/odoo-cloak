@@ -1,6 +1,4 @@
-name = "odoo-cloak"
-type = "javascript"
+name = "cloak-worker"
 compatibility_date = "2025-03-28"
 
-[build.upload]
 main = "worker.js"
