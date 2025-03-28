@@ -16,7 +16,8 @@ async function handleRequest(request) {
         });
     </script>`
 
-    // Modify the response to include the JavaScript
-    text = text.replace('</head>', `${scriptToRemoveElement}</head>`)
+    // Modify the response to include the JavaScript just before </body>
+    text = text.replace('</body>', `${scriptToRemoveElement}</body>`)
     return new Response(text, response)
 }
+
