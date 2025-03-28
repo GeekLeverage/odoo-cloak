@@ -1,6 +1,0 @@
-name = "cloak-worker"
-type = "javascript"
-compatibility_date = "2025-03-28"
-
-[build.upload]
-main = "worker.js"
