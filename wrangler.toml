@@ -1,4 +1,4 @@
-name = "cloak-worker"
+name = "odoo-cloak"
 compatibility_date = "2025-03-28"
 
 main = "worker.js"
